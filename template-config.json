@@ -1,0 +1,5 @@
+{
+  "token": "your bot token",
+  "bark_role": "the role you want to bully",
+  "master_id": "your id, its used to change the bark_role using the $prefix$chrid command"
+}
