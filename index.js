@@ -24,7 +24,7 @@ Client.on("ready", () => {
 });
 
 Client.login(config.token).then(() => {
-    console.log("Barking machine is logged in :yay:")
+    console.log("Barking machine is logged in :yay:");
 });
 
 
@@ -61,7 +61,7 @@ Client.on("messageCreate", message => {
             new_msg += ` bark`;
         }
 
-        new_msg = `${message.member.nickname === null ? message.member.displayName : message.member.nickname} voulait dire :\n${new_msg.trim()}`
+        new_msg = `${message.member.nickname === null ? message.member.displayName : message.member.nickname} voulait dire :\n${new_msg.trim()}`;
 
         message.channel.send(new_msg).then(() => message.delete());
     }
