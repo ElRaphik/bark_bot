@@ -12,7 +12,7 @@ const Client = new Discord.Client({
         Discord.Intents.FLAGS.DIRECT_MESSAGES
     ]
 });
-
+// just a silly change to show what creating a PR looks like
 
 const prefix = "$!";
 let role_id = config.bark_role;
